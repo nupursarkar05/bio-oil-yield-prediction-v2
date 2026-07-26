@@ -18,10 +18,12 @@ st.set_page_config(
 # Load Model
 # ------------------------------
 
-model = joblib.load("models/catboost_model.pkl")
+from pathlib import Path
 
-# If you saved feature names
-feature_names = joblib.load("models/feature_names.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model = joblib.load(BASE_DIR / "models" / "catboost_model.pkl")
+feature_names = joblib.load(BASE_DIR / "models" / "feature_names.pkl")
 
 # ------------------------------
 # Title
