@@ -4,6 +4,7 @@ An end-to-end Machine Learning project that predicts **Bio-Oil Yield (%)** obtai
 
 The project covers the complete ML lifecycle from data preprocessing to model deployment with **Streamlit**.
 
+You can access the app at  - https://bio-oil-yield-predictions.streamlit.app/
 ---
 
 ## 📌 Project Overview
